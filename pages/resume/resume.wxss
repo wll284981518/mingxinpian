@@ -1,0 +1,77 @@
+/* pages/resume/resume.wxss */
+/* 简历最大盒子 */
+.wll_resume {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background:#fafafa;
+  padding-bottom: 40rpx;
+}
+
+/* 轮播图  */
+#wll_Swiper>image {
+  width: 100%;
+  height: 400rpx;
+}
+
+/* 经验 */
+.wll_experience {
+  width: 90%;
+  box-shadow: 0 0 10rpx 0 rgba(0, 0, 0, 0.5);
+  background: white;
+  font-size: 30rpx;
+  margin: -50rpx auto 0;
+  z-index: 1;
+}
+
+.wll_content {
+  padding: 40rpx 0 0 40rpx;
+}
+
+.wll_content>text {
+  font-size: 40rpx;
+  font-weight: bold;
+  margin: 0 0 10rpx -10rpx;
+
+}
+
+.wll_content>view {
+  border-left: 2rpx solid #dddddd;
+  padding-left: 20rpx;
+
+}
+
+.wll_content>view:nth-of-type(1) {
+  margin-bottom: 10rpx;
+}
+
+.wll_title {
+  position: relative;
+  border-bottom: 2rpx solid #dddddd;
+  padding: 20rpx 0;
+}
+
+.wll_title>text {
+  color: #999;
+  display: inline-block;
+  margin-bottom: 20rpx;
+}
+
+.wll_title>view:nth-of-type(2) {
+  position: absolute;
+  top: 30rpx;
+  left: -28rpx;
+  width: 20rpx;
+  height: 20rpx;
+  background: #30ac63;
+  border-radius: 50%;
+}
+
+.wll_content:last-of-type {
+  margin-bottom: 10rpx;
+}
+
+
+
+

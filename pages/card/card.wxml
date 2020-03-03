@@ -1,0 +1,82 @@
+<!--pages/card/card.wxml-->
+<!-- 名片最大盒子 -->
+<view class="wll_card">
+
+  <!-- 轮播图 -->
+  <view class="wll_banner">
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="500" circular="true" id="wll_Swiper" indicator-active-color="white">
+      <block>
+        <swiper-item>
+          <image src="/images/azj1.jpg"></image>
+        </swiper-item>
+      </block>
+      <block>
+        <swiper-item>
+          <image src="/images/azj2.jpg"></image>
+        </swiper-item>
+      </block>
+      <block>
+        <swiper-item>
+          <image src="/images/azj3.jpg"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <!-- 名信片 -->
+  <view class="wll_information">
+    <text>汪琳琳</text>
+    <!-- 手机号 -->
+    <view>
+      <text>手机</text>
+      <view>
+        <text>15238281391</text>
+        <button bindtap="call">拨打</button>
+      </view>
+    </view>
+    <!-- 邮箱 -->
+    <view>
+      <text>邮箱</text>
+      <view>
+        <text>284981518@qq.com</text>
+        <button bindtap='emailPaste'>复制</button>
+      </view>
+    </view>
+    <!-- 职业 -->
+    <view>
+      <text>职业</text>
+      <view>
+        <text>全栈开发</text>
+        <button bindtap='workPaste'>复制</button>
+      </view>
+
+    </view>
+  </view>
+
+  <!-- 展示区 -->
+  <view class="wll_behavior">
+    <!-- 生成海报 -->
+    <view>
+      <image src="/images/save_banner.jpg"></image>
+      <text>生成海报</text>
+    </view>
+    <!-- 保存电话 -->
+    <view bindtap="savePhone">
+      <image src="/images/save_phone.jpg"></image>
+      <text>保存电话</text>
+    </view>
+    <!-- 分享好友 -->
+    <view>
+      <button id="shareBtn" open-type="share" type="primary">
+        <image src="/images/share.jpg"></image>
+        <text>分享好友</text>
+      </button>
+    </view>
+  </view>
+
+  <!-- 生成二维码 -->
+  <view class="wll_Logo">
+    <image src="/images/wo.jpg" bindtap="previewImage" mode="widthFix" data-src="/images/wo.jpg">></image>
+    <text>点击识别小程序</text>
+  </view>
+</view>

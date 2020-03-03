@@ -1,0 +1,64 @@
+<!--pages/projecttwo/projecttwo.wxml-->
+<!-- 项目二大盒子 -->
+<view class="wll_projecttow">
+
+  <!-- logo -->
+  <view class="wll_logo2">
+    <image src="/images/woyou_logo.jpg"></image>
+  </view>
+
+  <!-- 内容 -->
+  <view class="wll_content">
+    <view class="wll_introduce">
+      <text>'我柚话说'是一家专注于聊天讨论的探讨软件</text>
+    </view>
+    <!-- 中间内容一 -->
+    <view class="wll_contenttext">
+      <view>应用选项</view>
+      <view>
+        <text>首页：用来发布想讨论的话题</text>
+      </view>
+      <view>
+        <text>发布页：会让发布者上传封面，输入话题、描、上传图片，是否开始投票等。</text>
+      </view>
+      <!-- 图片 -->
+      <view class="wll_banner">
+        <image src="/images/woyou_img1.jpg"></image>
+        <image src="/images/woyou_img2.jpg"></image>
+      </view>
+    </view>
+    <!-- 中间内容二 -->
+    <view class="wll_contenttext">
+      <view>发现选项</view>
+      <view>
+        <text>包含一个推荐话题，和热门话题</text>
+      </view>
+      <!-- 图片 -->
+      <view class="wll_banner">
+        <image src="/images/woyou_img3.jpg"></image>
+        <image src="/images/woyou_img4.jpg"></image>
+      </view>
+    </view>
+    <!-- 中间内容三 -->
+    <view class="wll_contenttext">
+      <view>评论，分享选项</view>
+      <!-- 图片 -->
+      <view class="wll_banner">
+        <image src="/images/woyou_img5.jpg"></image>
+        <image src="/images/woyou_img6.jpg"></image>
+      </view>
+    </view>
+    <!-- 中间内容四 -->
+    <view class="wll_contenttext">
+      <view>个人选项</view>
+      <view>
+        <text>个人页：包含基本功能，可观看用户关注粉丝，接受的消息，与客服讨论等情况</text>
+      </view>
+      <!-- 图片 -->
+      <view class="wll_banner">
+        <image src="/images/woyou_img7.jpg"></image>
+        <image src="/images/woyou_img8.jpg"></image>
+      </view>
+  </view>
+  </view>
+</view>

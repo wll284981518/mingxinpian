@@ -1,0 +1,17 @@
+<!--pages/projectsummarize/projectsummarize.wxml-->
+<!-- 项目最大盒子 -->
+<view class="wll_project">
+  <!-- 项目一 -->
+  <view class="wll_projectBanner" bindtap="projectone">
+    <image src="/images/project_img1.jpg"></image>
+    <view>邻挑细选</view>
+    <text>小程序</text>
+  </view>
+
+  <!-- 项目二 -->
+  <view class="wll_projectBanner" bindtap="projecttwo">
+    <image src="/images/project_img2.jpg"></image>
+    <view>我柚话说</view>
+    <text>小程序</text>
+  </view>
+</view>

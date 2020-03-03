@@ -1,0 +1,62 @@
+/* pages/projectone/projectone.wxss */
+/* 项目一大盒子 */
+.wll_projectone {
+  display: flex;
+  flex-direction: column;
+  font-size: 30rpx;
+  background: #dec26f;
+  padding: 30rpx 30rpx 10rpx;
+}
+
+/* logo */
+.wll_logo1 {
+  margin: 0 auto 10rpx;
+}
+/* logo的图片 */
+.wll_logo1 image {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+/* 内容 */
+.wll_introduce {
+  width: 84%;
+  margin: 0 auto;
+  text-align: center;
+  padding:10rpx 0 40rpx 0;
+  font-size: 31rpx;
+}
+
+.wll_contenttext view:nth-of-type(1) {
+  font-size: 40rpx;
+}
+
+.wll_contenttext view {
+  margin-bottom: 20rpx;
+}
+
+.wll_contenttext>view>text {
+  display: block;
+  font-size: 31rpx;
+}
+
+.wll_contenttext .wll_banner {
+  margin-bottom: 0;
+}
+
+.wll_contenttext {
+  margin-bottom: 40rpx;
+}
+.wll_contenttext:last-of-type {
+  margin-bottom: 16rpx;
+}
+
+.wll_banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wll_banner image {
+  width: 300rpx;
+  height: 600rpx;
+}

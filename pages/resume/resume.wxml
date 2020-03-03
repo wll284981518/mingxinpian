@@ -1,0 +1,64 @@
+<!--pages/resume/resume.wxml-->
+<!-- 简历最大盒子 -->
+<view class="wll_resume">
+  <!-- 轮播图 -->
+  <view class="wll_banner">
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="500" circular="true" id="wll_Swiper" indicator-active-color="white">
+      <block>
+        <swiper-item>
+          <image src="/images/azj1.jpg"></image>
+        </swiper-item>
+      </block>
+      <block>
+        <swiper-item>
+          <image src="/images/azj2.jpg"></image>
+        </swiper-item>
+      </block>
+      <block>
+        <swiper-item>
+          <image src="/images/azj3.jpg"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <!-- 经验 -->
+  <view class="wll_experience">
+    <!-- 工作经验 -->
+    <view class="wll_content">
+      <text>工作经历</text>
+      <view>
+        <view class="wll_title">
+          <text>2018.03-至今</text>
+          <view>北京华创科技有限公司</view>
+          <view></view>
+        </view>
+      </view>
+      <view>
+        <view class="wll_title">
+          <text>2016.10-2018.02</text>
+          <view>浙江国贸数字科技有限公司</view>
+          <view></view>
+        </view>
+      </view>
+    </view>
+    <!-- 教育经历 -->
+    <view class="wll_content">
+      <text>教育经历</text>
+      <view>
+        <view class="wll_title">
+          <text>2014.09-2017.07</text>
+          <view>河南平顶山教育学院</view>
+          <view></view>
+        </view>
+      </view>
+      <view>
+        <view class="wll_title">
+          <text>2011.09-2014.06</text>
+          <view>河南医学高等专科学校</view>
+          <view></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

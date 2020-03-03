@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/card/card",
+    "pages/logs/logs",
+    "pages/projectsummarize/projectsummarize",
+    "pages/projectone/projectone",
+    "pages/projecttwo/projecttwo",
+    "pages/resume/resume"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "琳琳",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/card/card",
+        "iconPath": "images/card.png",
+        "selectedIconPath": "images/card_active.png",
+        "text": "名片"
+      },
+      {
+        "pagePath": "pages/projectsummarize/projectsummarize",
+        "iconPath": "images/project.png",
+        "selectedIconPath": "images/project_active.png",
+        "text": "项目"
+      },
+      {
+        "pagePath": "pages/resume/resume",
+        "iconPath": "images/resume.png",
+        "selectedIconPath": "images/resume_active.png",
+        "text": "简历"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ],
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
